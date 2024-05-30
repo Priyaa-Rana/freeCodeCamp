@@ -1,0 +1,53 @@
+body {
+  padding:70px;
+  font-family: sans-serif;
+  margin: 2rem;
+  color:white;
+  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSABPxTcEE50h3NC5VbI3kQXzEiapwgK-oy0aB7_TRX9Pak3gPtdGjfZa1cF6itiCkRCMs&usqp=CAU")
+  
+}
+form{
+  margin:10px;
+  padding:80px;
+  background-color:black;
+  color:white;
+  opacity:0.7;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  border-radius:6px;
+  padding:8px;
+}
+button{
+  padding:7px;
+border-radius: 5px;
+ cursor: pointer;
+ 
+}
+button:hover{
+  background-color:#4CAF50;
+}
